@@ -1,0 +1,103 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+.main {
+    /* The image used */
+    background-image: url("res/img/bg.png");
+  
+    /* Full height */
+    height: 100vh; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+.title {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+.title img {
+    max-width: 50vh;
+}
+
+.body {
+    text-align: center;
+}
+
+#dealer-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 3px;
+}
+
+#your-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 3px;
+}
+
+.buttons button{
+    margin: 0 3px;
+}
+
+#hit {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    background: linear-gradient(to top, black, #2d2d2d);
+    border-color: gold;
+    color: gold;
+    border-radius: 8px;
+}
+
+#stay {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    background: linear-gradient(to top, black, #2d2d2d);
+    border-color: gold;
+    color: gold;
+    border-radius: 8px;
+
+}
+
+#restart {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    background: linear-gradient(to top, black, #2d2d2d);
+    border-color: gold;
+    color: gold;
+    border-radius: 8px;
+}
+
+h2 {
+    color: white;
+    margin-top: 20px;
+}
+
+#results {
+    color: white;
+    font-size: 50px;
+}
+
+p {
+    margin-top: 10px;
+}
